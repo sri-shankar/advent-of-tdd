@@ -34,5 +34,6 @@ public class ElfReaderSpike {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("read back : " + elves.size()    );
     }
 }
